@@ -43,8 +43,8 @@ function cloud(x, y) {
 // Draws each color changing "z"
 function z() {
   for (i = 0; i < days.length; i++) {// Introduces i as a variable for days data 
-    float x = (i + 1.5) * 150;// Sets x-axis variable as each i value
-    float y = map(hoursSlept[i], 7.75, 4.75, 200, 770);// Sets and scales the y-axis as hours slept
+    x = (i + 1.5) * 150;// Sets x-axis variable as each i value
+    y = map(hoursSlept[i], 7.75, 4.75, 200, 770);// Sets and scales the y-axis as hours slept
     fill(0);// Sets the fill to black
     
     // Interactions
