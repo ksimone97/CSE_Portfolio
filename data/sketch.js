@@ -9,7 +9,7 @@ cX = [480, 700, 100, 800, 250, 1350, 1100, 300, 1300, 550];// Sets variable for 
 cY = [520, 200, 300, 825, 900, 1000, 500, 25, 25, 1175];// Sets variable for cloud's y
 
 function setup() {
-  canvasSize(1400, 1200);// Sets size of window to 1400 by 1000
+  createCanvas(1400, 1200);// Sets size of window to 1400 by 1000
   strokeWeight(5);// Sets the line thickness to 5
   noStroke(); // Eliminates outline
 }
