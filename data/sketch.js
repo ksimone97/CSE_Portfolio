@@ -51,7 +51,7 @@ function z() {
     if (dist(mouseX, mouseY, x + 30, y + 40) <= 40) {// Checks if the distance between mouse and z
       tint = map(sleepQuality[i], 43, 75, 100, 255);// If true, maps sleep quality values
       fill(255); // Sets fill to white
-      rect(x + 70, y + 10, 130, 60);// Draws right text box
+      rect(x + 70, y + 10, 110, 60);// Draws right text box
       rect(x - 10, y - 50, 80, 40);// Draws top text box
       fill(0);// Sets fill to black
       text(hoursSlept[i], x + 70, y + 50);// Writes the hours of sleep for each day of the week
