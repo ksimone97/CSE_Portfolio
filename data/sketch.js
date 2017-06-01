@@ -22,7 +22,7 @@ function draw() {
 
 // Draws the background
 function drawBackground() {
-  background("#60C7F5");// Sets the background color to light blue
+  background('#60C7F5');// Sets the background color to light blue
   for (i = 0; i < cX.length; i++) {// Introduces i as a variable for cloud data 
   cloud(cX[i], cY[i]);// Makes clouds for every value that are stored in cX and cY
   }
@@ -62,7 +62,7 @@ function z() {
  
     //Draws actual "z"
     rect(x, y, 60, 80);
-    fill("#60C7F5");// Color of background
+    fill('#60C7F5');// Color of background
     triangle(x, y + 20, x + 35, y + 20, x, y + 60);// "Cuts" out left side of "z"
     triangle(x + 60, y + 60, x + 60, y + 20, x + 25, y + 60);// "Cuts" out right side of "z"
   }
