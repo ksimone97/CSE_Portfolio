@@ -49,7 +49,7 @@ function z() {
     
     // Interactions
     if (dist(mouseX, mouseY, x + 30, y + 40) <= 40) {// Checks if the distance between mouse and z
-      float fill = map(sleepQuality[i], 43, 75, 100, 255);// If true, maps sleep quality values
+      fill = map(sleepQuality[i], 43, 75, 100, 255);// If true, maps sleep quality values
       fill(255); // Sets fill to white
       rect(x + 70, y + 10, 130, 60);// Draws right text box
       rect(x - 10, y - 50, 80, 40);// Draws top text box
@@ -78,7 +78,7 @@ function labels() {
     // X-axis
     line(150, 850, 1300, 850);// Draws X-axis
     textSize(60);// Sets the font size to 60
-    float x = (i + 1.5) * 150;// Reintroduces the x variable
+    x = (i + 1.5) * 150;// Reintroduces the x variable
     text(days[i], x, 900);// Labels the X-axis with the days of the week
     text("Day of the Week", 490, 980);// Labels X-axis as "Day of the Week"
     
