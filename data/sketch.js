@@ -3,10 +3,10 @@
    Draws an interactive visual of the sleep I got in a week and the sleep quality */
 
 days = ["S", "M", "T", "W", "Th", "F", "S"];// Creates string of data for the week
-hoursSlept = {6.25, 6.75, 4.75, 6, 6.5, 7.75, 5.5};// Sets variable for hours slept data
-sleepQuality = {54, 74, 43, 58, 60, 75, 62};// Sets variable for data on sleep quality
-cX = {480, 700, 100, 800, 250, 1350, 1100, 300, 1300, 550};// Sets variable for cloud's x
-cY = {520, 200, 300, 825, 900, 1000, 500, 25, 25, 1175};// Sets variable for cloud's y
+hoursSlept = [6.25, 6.75, 4.75, 6, 6.5, 7.75, 5.5];// Sets variable for hours slept data
+sleepQuality = [54, 74, 43, 58, 60, 75, 62];// Sets variable for data on sleep quality
+cX = [480, 700, 100, 800, 250, 1350, 1100, 300, 1300, 550];// Sets variable for cloud's x
+cY = [520, 200, 300, 825, 900, 1000, 500, 25, 25, 1175];// Sets variable for cloud's y
 
 function setup() {
   canvasSize(1400, 1200);// Sets size of window to 1400 by 1000
